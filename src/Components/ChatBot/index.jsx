@@ -11,7 +11,7 @@ import reloadIcon from '../../Assets/img/refresh.png';
 import { Image } from 'cloudinary-react';
 
 const SOCKET_SERVER_URL =
-  process.env.REACT_APP_API_GATEWAY_URL || 'http://localhost:5006';
+  process.env.REACT_APP_API_CHATBOT_URL || 'http://localhost:5006';
 let socket;
 
 const ChatBot = () => {
